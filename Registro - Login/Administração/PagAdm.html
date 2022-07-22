@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="PagAdmCSS.css" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="icone.png">
+    <script src="https://kit.fontawesome.com/bf5eead97f.js" crossorigin="anonymous"></script>
+    <title>Página Administrativa</title>
+</head>
+    <div class="site">
+        <nav id="sidebar">
+            <div class="titulo">
+                <h1>Administração</h1>
+            </div>
+
+            <ul class="menu">
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        Ordem
+                    </a>
+                    <a href="#" class="mostra-itens">
+                        <i class="fas fa-copy"></i>
+                        Categoria
+                    </a>
+                    <ul class="lista-sem-estilo" id="sub-menu">
+                        <li>
+                            <a href="ListaCategoria.html">Adicionar nova Categoria de produto</a>
+                        </li>
+                        <li>
+                            <a href="ExcluirCategoria.html">Excluir Categoria</a>
+                        </li>
+
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="#products" class="mostra-itens">
+                            <i class="fas fa-copy"></i>
+                            Produtos
+                        </a>
+                        <ul class="lista-sem-estilo" id="produtos">
+                            <li>
+                                <a href="CadastroP.html">Adicionar novos Produtos</a>
+                            </li>
+
+                            <li>
+                                <a href="ExcluirP.html">Excluir Produtos</a>
+                            </li>
+
+                            <li>
+                                <a href="ListaProdutos.html">Lista dos Produtos</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mostra-itens">
+                            <i class="fas fa-copy"></i>
+                            Funcionario
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-paper-plane"></i>
+                            Suporte
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+
+        <div class="Seção-Produtos">
+            <div class="Produtos-Header">
+                <h1>Informações da Loja</h1>
+            </div>
+
+            <div class="Produtos">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/categoria.png" alt="Iphone 11">
+                    </div>
+                    <div class="card-informações">
+                        <h1>Categorias</h1>
+                        <h3>9</h3>
+                    
+                    </div>
+                    
+                </div>
+        
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/Produtos.png" alt="Nintendo Switch">
+                    </div>
+                    <div class="card-informações">
+                        <h1>Produtos</h1>
+                        <h3>58</h3>
+                        
+                    </div>
+                </div>
+        
+                
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/pedidos.png" alt="Smart TV">
+                    </div>
+                    <div class="card-informações">
+                        <h1>Pedidos</h1>
+                        <h3>29</h3>
+                        
+                            
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Produtos" id="Prod2">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/Produtos sendo enviados.png" alt="Iphone 11">
+                    </div>
+                    <div class="card-informações">
+                        <h1>Pedidos Enviados</h1>
+                        <h3>18</h3>
+                        
+                    </div>
+                    
+                </div>
+        
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/Total Gasto.png" alt="Nintendo Switch">
+                    </div>
+                    <div class="card-informações">
+                        <h1>Total Gasto</h1>
+                        <h3>R$8.000,00</h3>
+                        
+                    </div>
+                </div>
+        
+                
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Imagens/Lucro.png" alt="Smart TV">
+                    </div>
+                    <div class="card-informações" id="lucro">
+                        <h1>Lucro</h1>
+                        <h3>R$15.000,00</h3> 
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

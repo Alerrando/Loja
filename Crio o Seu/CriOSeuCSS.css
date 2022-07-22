@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.titulo h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 3%;
+    font-size: 3.5rem;
+    color: rgb(0, 236, 253);
+    font-family: 'Josefin Slab', serif;
+
+}
+
+.Produtos-Header a{
+    left: 80%;
+    position: relative;
+    display: flex;
+    font-size: 1.6rem;
+    text-decoration: underline rgb(142, 1, 207);
+
+}
+
+.Produtos-Header h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    text-decoration: underline rgb(142, 1, 207);
+}
+
+.Produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.Produtos-Header {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.carrinho{
+    position: relative;
+    left: 79%;
+}
+  
+.card {
+    width: 24.2rem;
+    height: 23rem;
+    position: relative;
+}
+
+#HD .card{
+    width: 22rem;
+    height: 24.6rem;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+  
+.card-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-informações{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0.2rem 0.1rem 0.2rem rgb(0 0 0 / 60%);
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .card-informações, .img-header:hover .card-informações{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card-informações h1{
+    color: #ff69b4;
+    font-weight: 500;
+
+}
+
+.card-informações h3{
+    color: #fa7f72;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.line{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card-informações:hover{
+    opacity: 1;
+}
+
+.compra{
+    position: relative;
+    background-color: rgb(109, 109, 109);
+    color: whitesmoke;
+    padding: 6px 9px 6px 9px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    top: 2%;
+    left: 2%;
+    border: none;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .1);
+    transition: background-color 1s;
+    margin-top: 5px;
+}

@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,200;0,300;1,200;1,300&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Rokkitt:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.seta{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+}
+
+.seta img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 735%;
+    top: 400%;
+}
+
+
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+.header-titulo{
+    width: 100%;
+    height: 6rem;
+    position: relative;
+}
+
+.header-titulo h1{
+    font-size: 34px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-family: "futuralight", sans-serif;
+    color: #595959
+}
+
+.header-titulo i{
+    color: #000;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 17%;
+    left: 68%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.registro{
+    display: inline;
+    position: relative;
+}
+
+#login{
+    position: relative;
+    left: 57%;
+}
+
+.header-titulo .registro{
+    float: right;
+    padding-top: 15px;
+    right: 10%;
+    padding-right: 6%;
+}
+
+.header-titulo .registro a{
+    color: rgba(0,0,0, 8);
+    transition: color 2s;
+}
+
+.header-titulo .registro a:hover{
+    color: #337ab7;
+}
+
+.search-box{
+    display: inline-block;
+    position: relative;
+    margin-top: 1.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.search-box input{
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.busca{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1%;
+    left: 230%;
+}
+
+.navegacao{
+    height: 3rem;
+    padding-left: 5rem;
+    margin-bottom: 1.3rem;
+}
+
+.navegacao .menu-item{
+    align-items: end;
+    padding-left: 1px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 0.6rem;
+}
+
+.navegacao a{
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    transition: color 0.5s;
+    font-family: "Rokkitt", serif
+}
+
+.navegacao a:hover{
+    color: rgba(0,0,0, 8);
+}
+
+.titulo-promoção{
+    background-color: #88c8bc;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-promoção h1{
+    color: white;
+    font-family: "Rokkitt", sans-serif;
+}
+
+.Produtos-Header {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.Promoção{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.img-header{
+    flex: none;
+}
+
+.header-img{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+  
+.header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animacao {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    80%{
+        margin-left: -300%;
+    }
+}
+
+#img4{
+    margin-right: 11px;
+}
+
+.Promoção .card-informações{
+    display: flex;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgb(0 0 0 / 60%);
+    transition: all .3s;
+    opacity: 0;
+    top: 15%;
+    visibility: hidden;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#infor1{
+    display: block;
+}
+
+#infor2{
+    left: 100%;
+    display: block;
+}
+
+#infor3{
+    left: 200%;
+    display: block;
+}
+
+#infor4{
+    left: 300%;
+    display: block;
+}
+
+.Promoção .card-informações h1{
+    color: red;
+    font-weight: 500;
+
+}
+
+.Promoção .card-informações h3{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+
+}
+
+.Promoção .card-informações p{
+    font: 1rem;
+    color: whitesmoke;
+}
+
+.img-header:hover .card-informações{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.Produtos-Header h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    text-decoration: underline rgb(142, 1, 207);
+}
+
+.Produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.Produtos-Header {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.carrinho{
+    position: relative;
+    left: 79%;
+}
+  
+.card {
+    width: 18rem;
+    height: 30rem;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+  
+.card-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-informações{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgb(0 0 0 / 60%);
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .card-informações, .img-header:hover .card-informações{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card-informações h1{
+    color: brown;
+    font-weight: 500;
+
+}
+
+.card-informações h3{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+
+}
+
+.card-informações p{
+    color: whitesmoke;
+}
+
+.card button{
+    position: relative;
+    background-color: rgb(109, 109, 109);
+    color: whitesmoke;
+    padding: 6px 9px 6px 9px;
+    left: 20%;
+    border: none;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .1);
+    transition: background-color 1s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card button:hover, .img-header button:hover{
+    background-color: darkblue;
+}
+
+.line{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card-informações:hover{
+    opacity: 1;
+}
+
+.parceria-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceria-titulo h1{
+    font-size: 30px;
+    font-family: "Rokkitt", sans-serif;
+    color: #0000004D;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.parcerias-img-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.parcerias-img{
+    height: 150px;
+    width: 250px;
+}
+
+.parcerias-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.informações{
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(6, 3rem);
+    padding-top: 10rem;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.infos:nth-child(1){
+    grid-column: 2/5;
+    grid-row: 1/6;
+}
+
+.infos:nth-child(2){
+    grid-column: 6/10;
+    grid-row: 1/6;
+}
+
+.infos:nth-child(3){
+    grid-column: 10/12;
+    grid-row: 1/6;
+}
+
+.infos:nth-child(4){
+    grid-column: 13/13;
+    grid-row: 1/6;
+}
+
+.infos:nth-child(5){
+    grid-column: 15/17;
+    grid-row: 1/6;
+}
+
+.informações h1{
+    font-size: 18px;
+    font-family: "futuralight", sans-serif;
+    padding-bottom: 10px;
+}
+
+.informações p, a{
+    margin: 0 0 10px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    font-family: "Rokkitt", serif;
+    transition: color 1s;
+}
+
+.informações a:hover{
+    color: rgba(0, 0, 0, 8);
+}
+
+.redes-socias i{
+    color: #000;
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: color 1s;
+    margin-top: 25px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.redes-socias i:hover{
+    color: rgb(11, 108, 219);
+}

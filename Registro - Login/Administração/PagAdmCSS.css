@@ -1,0 +1,171 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site{
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    background-color: whitesmoke;
+}
+
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.titulo{
+    padding: 20px;
+    background: #6d7fcc;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo h1{
+    font-size: 1.2rem;
+}
+
+#sidebar ul{
+    padding: 4px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+.active a{
+    color: #fff;
+    background: #6d7fcc;
+}
+
+#sidebar ul li a{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+ul ul a{
+    font-size: 0.9em !important;
+    padding-left: 20px !important;
+    background: #6d7fcc;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#info{
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    background-color: white
+}
+
+.itens{
+    display: flex;
+    list-style-type: none;
+    left: 85%;
+    position: relative;
+}
+
+.nav-item{
+    padding-left: 15px;
+}
+
+.Produtos-Header h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    text-decoration: underline rgb(142, 1, 207);
+}
+
+.Produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.Produtos-Header {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.carrinho{
+    position: relative;
+    left: 79%;
+}
+  
+.card {
+    width: 20rem;
+    height: 17rem;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+  
+.card-img img {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.card-informações{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0.2rem 0.1rem 0.2rem rgb(0 0 0 / 60%);
+    transition: all .3s;
+}
+
+.card-informações h1{
+    color: #ff69b4;
+    position: relative;
+    left: 40%;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.card-informações h3{
+    color: #fa7f72;
+    position: relative;
+    left: 80%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Prod2 .card-informações h1{
+    left: 15%;
+
+}
+
+#Prod2 .card-informações h3{
+    left: 50%;
+}
+
+#lucro h1{
+    padding-left: 50%;
+}
+
+.header-titulo{
+    margin-bottom: 10rem;
+    position: relative;
+}
